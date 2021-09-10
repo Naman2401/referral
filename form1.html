@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="taxinvoice1.php" name="Invoice Form" onSubmit="return(validate());" method="POST">
+
+<table cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+
+<tr>
+<td colspan=2></td>
+<center><font size=4><b>Invoice Form</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>Biller's Name</td>
+<td><input type=text name="textnames" id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>Name of consignee</td>
+<td><input type="text" name="consigneename" id="consigneename"
+size="30"></td>
+</tr>
+<tr>
+<td>Consignee Address & pincode</td>
+
+<td><input type="text" name="caddress" id="caddress" size="30"></td>
+</tr>
+
+<tr>
+<td>Consignee Mobile no</td>
+<td><input type="text" name="mobile"
+id="mobile" size="30"></td>
+</tr>
+<tr>
+    <td>Consignee Email</td>
+    <td><input type="text" name="email"
+    id="Email" size="30"></td>
+    </tr>
+
+<tr>
+<td>Services purchased</td>
+<td><input type="text" name="spurchased" id="spurchased" size="30"></td>
+
+</tr>
+<tr>
+<td>Billing Date</td>
+<td><input type="text" name="date" id="Date" size="30"></td>
+</tr>
+
+<tr>
+<td>Quantity</td>
+<td><input type="text" name="quantity" id="quantity" size="30"></td>
+</tr>
+
+<tr>
+<td>Rate of Service</td>
+<td><input type="text" name="rservice" id="rservice" size="30"></td>
+</tr>
+<td>Mode of Payment</td>
+<td><input type="text" name="mpayment" id="mpayment" size="30"></td>
+</tr>
+<td>Bill No</td>
+<td><input type="text" name="bill" id="bill" size="30"></td>
+</tr>
+<td>GST</td>
+<td><input type="text" name="gst" id="gst" size="30"></td>
+</tr>
+</tr>
+<td>Payment Mode (if any)</td>
+<td><input type="text" name="pmode" id="pmode" size="30"></td>
+</tr>
+</tr>
+<td>Payment details</td>
+<td><input type="text" name="pdetails" id="pdetails" size="30"></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" name="submit"/></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
